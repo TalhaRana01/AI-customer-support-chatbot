@@ -1,5 +1,5 @@
 from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
-from langchain_core import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from app.core.vectorestore import vector_store
 from app.models.documents import Document
 from sqlmodel import Session

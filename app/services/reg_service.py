@@ -1,5 +1,7 @@
 from langchain_openai import ChatOpenAI
-from langchain_core import ConversationalRetrievalChain
+# from langchain_community.chains import ConversationalRetrievalChain
+from langchain.chains import RetrievalQA
+
 from langchain_core import ConversationBufferMemory
 from langchain_core import PromptTemplate
 from app.core.vectorestore import vector_store
