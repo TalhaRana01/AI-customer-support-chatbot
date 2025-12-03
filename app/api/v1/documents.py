@@ -3,7 +3,7 @@ from sqlmodel import Session, select
 from app.core.database import get_session
 from app.api.deps import get_current_active_user
 from app.models.user import User
-from app.models.document import Document
+from app.models.documents import Document
 from app.services.document_service import document_service
 from typing import List
 import os
